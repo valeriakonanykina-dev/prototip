@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗдоровьеНавигатор — Подготовка к процедурам</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="logo">
+                <span class="logo__icon">✚</span>
+                <span class="logo__text">Здоровье<strong>Навигатор</strong></span>
+            </a>
+            <nav class="nav">
+                <a href="#procedures" class="nav__link">Процедуры</a>
+                <a href="#how-it-works" class="nav__link">Как это работает</a>
+                <a href="#faq" class="nav__link">Вопросы</a>
+            </nav>
+            <button class="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero__inner">
+            <div class="hero__content">
+                <h1 class="hero__title">Правильная подготовка — <span class="accent">точный результат</span></h1>
+                <p class="hero__subtitle">Пошаговые напоминания о том, что делать до, во время и после медицинских процедур. Ничего не забудьте — мы подскажем.</p>
+                <a href="#procedures" class="btn btn--primary">Выбрать процедуру</a>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__card">
+                    <div class="hero__card-icon">🩺</div>
+                    <div class="hero__card-text">
+                        <strong>12+ процедур</strong>
+                        <span>с подробными инструкциями</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="procedures" id="procedures">
+        <div class="container">
+            <h2 class="section-title">Выберите процедуру</h2>
+            <p class="section-subtitle">Нажмите на карточку, чтобы получить полный чек-лист подготовки</p>
+            
+            <div class="cards-grid">
+                <a href="pages/mri.html" class="card">
+                    <div class="card__icon">🧠</div>
+                    <h3 class="card__title">МРТ</h3>
+                    <p class="card__desc">Магнитно-резонансная томография — подготовка, противопоказания, что взять с собой.</p>
+                    <span class="card__link">Открыть чек-лист →</span>
+                </a>
+
+                <a href="pages/blood-test.html" class="card">
+                    <div class="card__icon">🩸</div>
+                    <h3 class="card__title">Сбор крови</h3>
+                    <p class="card__desc">Общий анализ, биохимия, гормоны — как подготовиться, чтобы результаты были точными.</p>
+                    <span class="card__link">Открыть чек-лист →</span>
+                </a>
+
+                <a href="pages/ultrasound.html" class="card">
+                    <div class="card__icon">📡</div>
+                    <h3 class="card__title">УЗИ</h3>
+                    <p class="card__desc">Ультразвуковое исследование разных органов — питание, питьевой режим, одежда.</p>
+                    <span class="card__link">Открыть чек-лист →</span>
+                </a>
+
+                <a href="pages/xray.html" class="card">
+                    <div class="card__icon">🦴</div>
+                    <h3 class="card__title">Рентген</h3>
+                    <p class="card__desc">Рентгенография — что снять, как защитить органы, особенности для детей и беременных.</p>
+                    <span class="card__link">Открыть чек-лист →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="how" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Как это работает</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step__num">1</div>
+                    <h3 class="step__title">Выберите процедуру</h3>
+                    <p class="step__desc">Найдите нужное исследование в списке</p>
+                </div>
+                <div class="step">
+                    <div class="step__num">2</div>
+                    <h3 class="step__title">Изучите чек-лист</h3>
+                    <p class="step__desc">До, во время и после — все по шагам</p>
+                </div>
+                <div class="step">
+                    <div class="step__num">3</div>
+                    <h3 class="step__title">Отметьте выполнено</h3>
+                    <p class="step__desc">Прогресс сохраняется в браузере</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Частые вопросы</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary>Можно ли есть перед МРТ?</summary>
+                    <p>Зависит от зоны исследования. Для МРТ брюшной полости — не есть 4–6 часов. Для МРТ головного мозга — можно. Всегда уточняйте у врача.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Что делать, если я забыл подготовиться?</summary>
+                    <p>Сообщите об этом медицинскому персоналу перед процедурой. В некоторых случаях исследование можно перенести или скорректировать.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Можно ли брать с собой телефон на МРТ?</summary>
+                    <p>Нет. Металлические предметы и электроника запрещены в кабинете МРТ. Оставьте их в специальной камере хранения.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <span class="logo__icon">✚</span>
+                <span>ЗдоровьеНавигатор</span>
+            </div>
+            <p class="footer__disclaimer">Информация носит справочный характер и не заменяет консультацию врача.</p>
+            <p class="footer__copy">© 2025 ЗдоровьеНавигатор</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

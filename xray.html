@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рентген — Подготовка | ЗдоровьеНавигатор</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="../index.html" class="logo">
+                <span class="logo__icon">✚</span>
+                <span class="logo__text">Здоровье<strong>Навигатор</strong></span>
+            </a>
+        </div>
+    </header>
+
+    <main class="procedure-page">
+        <div class="container">
+            <a href="../index.html" class="back-link">← На главную</a>
+            
+            <div class="procedure-header">
+                <div class="procedure-header__icon">🦴</div>
+                <div>
+                    <h1 class="procedure-header__title">Рентгенография (рентген)</h1>
+                    <p class="procedure-header__subtitle">Быстрое исследование костей и органов грудной клетки</p>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-bar__fill" id="progressFill"></div>
+                <span class="progress-bar__text" id="progressText">0% выполнено</span>
+            </div>
+
+            <section class="checklist-section">
+                <h2 class="checklist-section__title">📋 До процедуры</h2>
+                <ul class="checklist" data-checklist="before">
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Снимите металлические украшения, часы, цепочки, пирсинг в зоне исследования.</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Сообщите врачу о беременности (даже на раннем сроке).</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Возьмите направление и предыдущие снимки, если есть.</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Наденьте удобную одежду, которую легко снять.</span></label></li>
+                </ul>
+            </section>
+
+            <section class="checklist-section">
+                <h2 class="checklist-section__title">⏱ Во время процедуры</h2>
+                <ul class="checklist" data-checklist="during">
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Наденьте защитный фартук, если предложат (для защиты органов).</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Выполняйте команды врача: задержите дыхание, встаньте прямо и т.д.</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Не двигайтесь во время снимка — это может размыть изображение.</span></label></li>
+                </ul>
+            </section>
+
+            <section class="checklist-section">
+                <h2 class="checklist-section__title">✅ После процедуры</h2>
+                <ul class="checklist" data-checklist="after">
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Результат обычно готов в течение 1–2 рабочих дней.</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Заберите снимки и описание, запишитесь к врачу.</span></label></li>
+                    <li class="checklist__item"><label class="checklist__label"><input type="checkbox" class="checklist__input"><span class="checklist__custom"></span><span class="checklist__text">Храните снимки — они понадобятся для сравнения в будущем.</span></label></li>
+                </ul>
+            </section>
+
+            <div class="warning-box">
+                <strong>⚠️ Важно:</strong> Рентген противопоказан при беременности (кроме экстренных случаев). Детям и беременным при возможности выбирают альтернативные методы (УЗИ, МРТ).
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__disclaimer">Информация носит справочный характер и не заменяет консультацию врача.</p>
+            <p class="footer__copy">© 2025 ЗдоровьеНавигатор</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

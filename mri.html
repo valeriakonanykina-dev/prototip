@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МРТ — Подготовка | ЗдоровьеНавигатор</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="../index.html" class="logo">
+                <span class="logo__icon">✚</span>
+                <span class="logo__text">Здоровье<strong>Навигатор</strong></span>
+            </a>
+            <nav class="nav">
+                <a href="../index.html#procedures" class="nav__link">Все процедуры</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="procedure-page">
+        <div class="container">
+            <a href="../index.html" class="back-link">← На главную</a>
+            
+            <div class="procedure-header">
+                <div class="procedure-header__icon">🧠</div>
+                <div>
+                    <h1 class="procedure-header__title">Магнитно-резонансная томография (МРТ)</h1>
+                    <p class="procedure-header__subtitle">Безопасное и информативное исследование без рентгеновского излучения</p>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-bar__fill" id="progressFill"></div>
+                <span class="progress-bar__text" id="progressText">0% выполнено</span>
+            </div>
+
+            <section class="checklist-section">
+                <h2 class="checklist-section__title">📋 До процедуры</h2>
+                <ul class="checklist" data-checklist="before">
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Уточните у врача, нужно ли голодать. Для МРТ брюшной полости — не есть 4–6 часов.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Сообщите врачу о наличии металлических имплантов, кардиостимулятора, клипс, слуховых аппаратов.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Снимите все металлические украшения, часы, очки, зубные протезы (съёмные).</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Возьмите с собой результаты предыдущих исследований и направление.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Наденьте удобную одежду без металлических элементов.</span>
+                        </label>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="checklist-section">
+                <h2 class="checklist-section__title">⏱ Во время процедуры</h2>
+                <ul class="checklist" data-checklist="during">
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Оставьте телефон, ключи, банковские карты в камере хранения.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Лежите неподвижно — движение ухудшает качество снимков.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Используйте кнопку экстренной связи, если почувствуете дискомфорт.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Сообщите о клаустрофобии заранее — предложат открытый томограф или успокоительное.</span>
+                        </label>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="checklist-section">
+                <h2 class="checklist-section__title">✅ После процедуры</h2>
+                <ul class="checklist" data-checklist="after">
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Если вводили контраст — пейте больше воды в течение суток.</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Уточните, когда и где забрать результаты (обычно 1–3 рабочих дня).</span>
+                        </label>
+                    </li>
+                    <li class="checklist__item">
+                        <label class="checklist__label">
+                            <input type="checkbox" class="checklist__input">
+                            <span class="checklist__custom"></span>
+                            <span class="checklist__text">Запишитесь на консультацию к врачу для расшифровки результатов.</span>
+                        </label>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="warning-box">
+                <strong>⚠️ Важно:</strong> МРТ противопоказано при наличии кардиостимулятора (несовместимого), ферромагнитных имплантов, металлических осколков. Всегда сообщайте врачу о своих имплантах.
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p class="footer__disclaimer">Информация носит справочный характер и не заменяет консультацию врача.</p>
+            <p class="footer__copy">© 2025 ЗдоровьеНавигатор</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
